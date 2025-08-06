@@ -1,0 +1,441 @@
+# Copyright (C) 2024 Yenolx Team
+# This file is distributed under the same license as the Yenolx Cargo Service plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Yenolx Cargo Service 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yenolx-cargo\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: yenolx-cargo\n"
+
+# Main plugin file
+msgid "Yenolx Cargo Service"
+msgstr ""
+
+msgid "A complete cargo service management system for shipments from EU countries to Sri Lanka"
+msgstr ""
+
+msgid "Yenolx Team"
+msgstr ""
+
+# Admin menu
+msgid "Yenolx Cargo"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Countries"
+msgstr ""
+
+msgid "Pricing"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Coupons"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+# Dashboard
+msgid "Welcome to Yenolx Cargo Service"
+msgstr ""
+
+msgid "Total Orders"
+msgstr ""
+
+msgid "Today's Orders"
+msgstr ""
+
+msgid "Pending Orders"
+msgstr ""
+
+msgid "Completed Orders"
+msgstr ""
+
+msgid "Recent Orders"
+msgstr ""
+
+msgid "Order Statistics"
+msgstr ""
+
+# Countries
+msgid "Add New Country"
+msgstr ""
+
+msgid "Edit Country"
+msgstr ""
+
+msgid "Country Name (English)"
+msgstr ""
+
+msgid "Country Name (Sinhala)"
+msgstr ""
+
+msgid "Country Name (Tamil)"
+msgstr ""
+
+msgid "Delivery Time Range 1"
+msgstr ""
+
+msgid "Delivery Time Range 2"
+msgstr ""
+
+msgid "Delivery Time Range 3"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Country saved successfully."
+msgstr ""
+
+msgid "Country deleted successfully."
+msgstr ""
+
+# Pricing
+msgid "Add New Pricing"
+msgstr ""
+
+msgid "Edit Pricing"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Weight (kg)"
+msgstr ""
+
+msgid "Price (EUR)"
+msgstr ""
+
+msgid "Pricing saved successfully."
+msgstr ""
+
+msgid "Pricing deleted successfully."
+msgstr ""
+
+# Orders
+msgid "Order ID"
+msgstr ""
+
+msgid "Tracking ID"
+msgstr ""
+
+msgid "Sender"
+msgstr ""
+
+msgid "Receiver"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Order Confirmed"
+msgstr ""
+
+msgid "Ready for Pickup"
+msgstr ""
+
+msgid "Picked Up"
+msgstr ""
+
+msgid "In Transit to Italy"
+msgstr ""
+
+msgid "In Transit to Sri Lanka"
+msgstr ""
+
+msgid "At Sri Lanka Office"
+msgstr ""
+
+msgid "In Transit to Home"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Special Notes"
+msgstr ""
+
+msgid "Order status updated successfully."
+msgstr ""
+
+# Coupons
+msgid "Add New Coupon"
+msgstr ""
+
+msgid "Edit Coupon"
+msgstr ""
+
+msgid "Coupon Code"
+msgstr ""
+
+msgid "Discount Type"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Discount Value"
+msgstr ""
+
+msgid "Minimum Order Value"
+msgstr ""
+
+msgid "Maximum Uses"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Coupon saved successfully."
+msgstr ""
+
+msgid "Coupon deleted successfully."
+msgstr ""
+
+# Settings
+msgid "General Settings"
+msgstr ""
+
+msgid "Milan to Sri Lanka Rate (EUR/kg)"
+msgstr ""
+
+msgid "Sri Lanka Delivery Rate (EUR/kg)"
+msgstr ""
+
+msgid "Currency Symbol"
+msgstr ""
+
+msgid "Email Settings"
+msgstr ""
+
+msgid "Email From Name"
+msgstr ""
+
+msgid "Email From Address"
+msgstr ""
+
+msgid "Tracking ID Settings"
+msgstr ""
+
+msgid "Tracking ID Prefix"
+msgstr ""
+
+msgid "Tracking ID Length"
+msgstr ""
+
+msgid "Settings saved successfully."
+msgstr ""
+
+# Frontend forms
+msgid "Order Form"
+msgstr ""
+
+msgid "Select Country"
+msgstr ""
+
+msgid "Select Package Weight"
+msgstr ""
+
+msgid "Deliver to home in Sri Lanka"
+msgstr ""
+
+msgid "Calculate Price"
+msgstr ""
+
+msgid "Coupon Code"
+msgstr ""
+
+msgid "Apply Coupon"
+msgstr ""
+
+msgid "Price Breakdown"
+msgstr ""
+
+msgid "Country to Milan"
+msgstr ""
+
+msgid "Milan to Sri Lanka"
+msgstr ""
+
+msgid "Sri Lanka Delivery"
+msgstr ""
+
+msgid "Subtotal"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Total Cost"
+msgstr ""
+
+msgid "Cost per kg"
+msgstr ""
+
+msgid "Estimated Delivery Time"
+msgstr ""
+
+msgid "Sender Details"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Last Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Street Address"
+msgstr ""
+
+msgid "Home/Building Number"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Postal Code"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Receiver Details"
+msgstr ""
+
+msgid "Address in Sri Lanka"
+msgstr ""
+
+msgid "Place Order"
+msgstr ""
+
+msgid "Order Confirmation"
+msgstr ""
+
+msgid "Thank you for your order!"
+msgstr ""
+
+msgid "Your order has been placed successfully."
+msgstr ""
+
+msgid "Tracking ID"
+msgstr ""
+
+msgid "Order Summary"
+msgstr ""
+
+msgid "Tracking Form"
+msgstr ""
+
+msgid "Enter Tracking ID"
+msgstr ""
+
+msgid "Track Order"
+msgstr ""
+
+msgid "Order Details"
+msgstr ""
+
+msgid "Current Status"
+msgstr ""
+
+msgid "Tracking History"
+msgstr ""
+
+msgid "Date & Time"
+msgstr ""
+
+msgid "Status Update"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+# Error messages
+msgid "Please fill in all required fields."
+msgstr ""
+
+msgid "Failed to save order. Please try again."
+msgstr ""
+
+msgid "Order placed successfully!"
+msgstr ""
+
+msgid "Please enter a tracking ID."
+msgstr ""
+
+msgid "Invalid tracking ID. Please check and try again."
+msgstr ""
+
+msgid "Invalid or expired coupon code."
+msgstr ""
+
+msgid "Coupon applied successfully."
+msgstr ""
+
+# Email notifications
+msgid "Order Confirmation"
+msgstr ""
+
+msgid "Order Status Update"
+msgstr ""
+
+msgid "Dear"
+msgstr ""
+
+msgid "Thank you for your order with Yenolx Cargo Service."
+msgstr ""
+
+msgid "Your order details are as follows:"
+msgstr ""
+
+msgid "Your order status has been updated."
+msgstr ""
+
+msgid "Best regards"
+msgstr ""
+
+msgid "Yenolx Cargo Service Team"
+msgstr ""

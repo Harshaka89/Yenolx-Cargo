@@ -1,0 +1,481 @@
+/* Admin Styles for Yenolx Cargo Service */
+
+/* Dashboard */
+.yenolx-dashboard {
+    margin-top: 20px;
+}
+
+.yenolx-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.yenolx-stat-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.yenolx-stat-card h3 {
+    margin: 0 0 10px 0;
+    color: #6c757d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.yenolx-stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.yenolx-charts-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.yenolx-chart-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-chart-container h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+/* Form Containers */
+.yenolx-form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-form-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.yenolx-form-container h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #6c757d;
+}
+
+/* Filters */
+.yenolx-filters {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.yenolx-filter-group {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.yenolx-filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.yenolx-filter-group input,
+.yenolx-filter-group select {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Table Container */
+.yenolx-table-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-table-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+/* Status Badges */
+.status-active {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-inactive {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #6c757d;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status-badge.status-order-confirmed {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.status-badge.status-ready-for-pickup {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-badge.status-picked-up {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-badge.status-in-transit-to-italy {
+    background-color: #007bff;
+    color: white;
+}
+
+.status-badge.status-in-transit-to-sri-lanka {
+    background-color: #6610f2;
+    color: white;
+}
+
+.status-badge.status-at-sri-lanka-office {
+    background-color: #fd7e14;
+    color: white;
+}
+
+.status-badge.status-in-transit-to-home {
+    background-color: #e83e8c;
+    color: white;
+}
+
+.status-badge.status-delivered {
+    background-color: #20c997;
+    color: white;
+}
+
+/* Pricing Overview */
+.yenolx-pricing-overview {
+    margin-bottom: 30px;
+}
+
+.yenolx-pricing-rates {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-pricing-rates h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.yenolx-country-pricing {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-country-pricing h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.yenolx-pricing-tiers {
+    margin-bottom: 10px;
+}
+
+.yenolx-pricing-tier {
+    padding: 4px 0;
+    color: #6c757d;
+}
+
+/* Price Calculator */
+.yenolx-pricing-calculator {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-pricing-calculator h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.yenolx-calculator-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.yenolx-form-group {
+    margin-bottom: 15px;
+}
+
+.yenolx-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.yenolx-form-group input,
+.yenolx-form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.yenolx-calculation-result {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Order Details */
+.yenolx-order-details {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.yenolx-order-details h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+/* Settings Container */
+.yenolx-settings-container {
+    max-width: 800px;
+}
+
+.yenolx-settings-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yenolx-settings-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Shortcodes */
+.yenolx-settings-section code {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .yenolx-stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .yenolx-charts-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .yenolx-calculator-form {
+        grid-template-columns: 1fr;
+    }
+    
+    .yenolx-filter-group {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .form-table {
+        font-size: 14px;
+    }
+    
+    .form-table th {
+        width: 30%;
+    }
+}
+
+/* Loading Animation */
+.yenolx-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Tooltips */
+.yenolx-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+}
+
+.yenolx-tooltip .yenolx-tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.yenolx-tooltip:hover .yenolx-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Success/Error Messages */
+.yenolx-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.yenolx-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Form Validation */
+.yenolx-form-error {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.yenolx-form-group.error input,
+.yenolx-form-group.error select,
+.yenolx-form-group.error textarea {
+    border-color: #dc3545;
+}
+
+/* Progress Bar */
+.yenolx-progress {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.yenolx-progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+/* Tabs */
+.yenolx-tabs {
+    display: flex;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.yenolx-tab {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.yenolx-tab:hover {
+    background-color: #e9ecef;
+}
+
+.yenolx-tab.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.yenolx-tab-content {
+    display: none;
+}
+
+.yenolx-tab-content.active {
+    display: block;
+}
